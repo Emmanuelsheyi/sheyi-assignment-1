@@ -1,0 +1,236 @@
+.body {
+    margin: 0;
+    background-color: antiquewhite; 
+}
+body{
+    margin: 0;
+}
+.nav{
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+.href{
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+.topB {
+    background-color: rgba(255, 0, 0, 0.573);
+    height: 80px;
+    font-size: 15px;
+    
+}
+.button {
+    height: 50px;
+    width: 70px;
+   margin: 20px;
+   font-size: 20px;
+   color: red;
+   
+   
+}
+.button:hover {
+    background-color: yellow;
+}
+.navbar {
+ display: grid;
+ background-color: greenyellow;
+ width: 180px;
+ height: 220px;
+ text-align: center;
+margin-top: -14px;
+ font-size: 25px;
+ float: right;
+ 
+
+}
+.fragment {
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+}
+.any{
+    margin-top: -20px;
+    color: black;
+   font-size: 20px;
+}
+footer {
+    background-color: rgba(255, 0, 0, 0.573);
+}
+footer a {
+    font-size: 30px;
+    text-decoration: none;
+}
+ .border { 
+   width: 150px;
+   height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 25px;
+background-color: green;
+animation-name: spin;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+
+}
+.div {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+@keyframes spin {
+    0%{
+  
+    }
+    50%{
+      transform: rotate(0);
+      border-radius: 50%;
+  
+    }
+    100%{
+      transform: rotate(360deg);
+      border-radius: 50%;
+      scale: 2;
+    }
+  }
+
+
+
+  .divtable{
+    display: flexbox;
+    float: right;
+    justify-content: center;
+    margin-right: 100px;
+  }
+  .class{
+    float: right;
+    font-size: small;
+  }
+  .fig{
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    display: flex; 
+  }
+
+
+  .sub{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .logocontainer{
+    margin: 0;
+    margin-left: 93px;
+  }
+
+  .header4{
+    margin-left: 80px;
+    font-size: 10px;
+  }
+  
+  .header5{
+    margin-left: 30px;
+    font-size: 10px;
+  }
+  .input{
+    background-color: rgb(0, 102, 255);
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .input:hover{
+    background-color: rgb(0, 26, 255);
+  }
+
+
+  .navtable{
+    background-color: rgba(255, 0, 0, 0.573);
+  }
+
+.link {
+  margin: 10px;
+  color: aqua;
+  border-radius: 5px;
+  border-color: aqua;
+}
+.link:hover{
+  background-color: black;
+}
+.link2{
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 800;
+  color: aqua;
+}
+.headertable {
+  color: rgb(30, 0, 255);
+}
+.table{
+  color: rgb(242, 0, 255);
+}
+
+.media{
+  background-color: rgba(255, 0, 0, 0.573);
+  height: 60px;
+}
+.medialink{
+  color: rgb(0, 17, 255);
+  float: right;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.mediabutton:hover{
+  background-color: blue;
+}
+
+.mediabody{
+  background-color: cornsilk;
+  color: brown;
+}
+
+.mediapic{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.mediavideo{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.mediafooter{
+ display: flex;
+ justify-content: center;
+ animation-name: slide;
+ animation-duration: 2s;
+ animation-timing-function: ease-in-out;
+ animation-iteration-count: infinite;
+}
+
+@keyframes slide{
+  0% {
+    transform: translateX(0);
+}
+50% {
+    transform: translateX(100px);
+}
+100% {
+    transform: translateX(0);
+}
+
+}

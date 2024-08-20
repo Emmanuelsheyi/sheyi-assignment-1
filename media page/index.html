@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media page</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body class="mediabody">
+    <header>
+        <div>
+            <nav class="media">
+                <a href="../index.html"><button class="mediabutton">Home</button></a>
+                <a href="../form page/"><button class="mediabutton">form page</button></a>
+                <a href="../table page/"><button class="mediabutton">table page</button></a> <br>
+
+                <!-- fragment identifier -->
+                <a href="#top" class="medialink">  go to top</a>
+                <a href="#main"  class="medialink">go to main</a><br>
+            </nav>
+        </div>
+      <h1>MEDIA</h1>
+      <section id="top">
+        <h2>About myself</h2>
+        <p>
+          my name is <mark>Emmanuel sheyi </mark>and I am a student of
+          <strong>Altschool 2024.</strong> I have love the tech field for a very
+          long time <br />
+          and I am looking faward in gaining the skill i need to become a
+          software engineer.<br />
+          And I am also looking faward in meeting new friends in altshool and
+          knocking down challages with them here in Altschool and also outside
+          the world.
+        </p>
+      </section>
+    </header>
+    <main id="main">
+      <div class="mediapic">
+        <h3>A Picture of me</h3>
+      <section>
+        <figure>
+          <picture>
+            <source media="(min-width: 650)" srcset="image.large.png">
+            <source media="(min-width: 540)" srcset="image.medium.png">
+            <source media="(min-width: 350)" srcset="image.small.png">
+
+            <img src="../asset/slack.png" alt="a picture of me" height="300">
+            <figcaption>A picture of myself</figcaption>
+        </picture>
+        </figure>
+      </section>
+    </div>
+
+      <section>
+        <h3>An audio of me:</h3>
+        <audio controls>
+            <source src="../asset/myvideo file.mp4" type="audio/mpeg">
+            <source src="../asset/audio.mp3.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+      </section>
+     
+      <section>
+        <div class="mediavideo">
+        <h3>A video of me :</h3>
+        <video width="400" height="250" controls>
+            <source src="../asset/myvideo file.mp4" type="video/mp4">
+            <source src="../asset/my video.mov" type="video/webm">
+            Your browser does not support the video tag.
+        </video></div>
+      </section>
+    
+ <button><a href="#top"> go to top</a>
+    </main>
+    <footer class="mediafooter">
+      <img src="../asset/altschool logo.png" alt="altschool logo" width="100px">
+    </footer>
+  </body>
+</html>
