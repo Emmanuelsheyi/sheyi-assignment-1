@@ -1,48 +1,30 @@
-.body {
-    margin: 0;
-    background-color: antiquewhite; 
-}
+
 body{
     margin: 0;
 }
-.nav{
-    background-color: black;
-    height: 50px;
-    color: white;
-}
 
-.href{
-    font-size: 15px;
-    padding: 15px;
-    color: white;
-    text-decoration: none;
+
+
     
-}
+
 .topB {
     background-color: rgba(255, 0, 0, 0.573);
     height: 80px;
     font-size: 15px;
     
 }
-.button {
-    height: 50px;
-    width: 70px;
-   margin: 20px;
-   font-size: 20px;
-   color: red;
+
    
    
-}
-.button:hover {
-    background-color: yellow;
-}
+
+
+
 .navbar {
  display: grid;
  background-color: greenyellow;
  width: 180px;
  height: 220px;
  text-align: center;
-margin-top: -14px;
  font-size: 25px;
  float: right;
  
@@ -105,22 +87,9 @@ animation-direction: alternate-reverse;
 
 
 
-  .divtable{
-    display: flexbox;
-    float: right;
-    justify-content: center;
-    margin-right: 100px;
-  }
-  .class{
-    float: right;
-    font-size: small;
-  }
-  .fig{
-    font-size: 30px;
-    font-style: normal;
-    text-align: center;
-    display: flex; 
-  }
+  
+  
+  
 
 
   .sub{
@@ -131,29 +100,12 @@ animation-direction: alternate-reverse;
     
   }
 
-  .logocontainer{
-    margin: 0;
-    margin-left: 93px;
-  }
+ 
 
-  .header4{
-    margin-left: 80px;
-    font-size: 10px;
-  }
+ 
   
-  .header5{
-    margin-left: 30px;
-    font-size: 10px;
-  }
-  .input{
-    background-color: rgb(0, 102, 255);
-    width: 200px;
-    height: 30px;
-    border-radius: 5px;
-  }
-  .input:hover{
-    background-color: rgb(0, 26, 255);
-  }
+  
+  
 
 
   .navtable{
@@ -233,4 +185,216 @@ animation-direction: alternate-reverse;
     transform: translateX(0);
 }
 
+}
+
+/* form css */
+
+.formContainer, .tableContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: gray;
+}
+.nav {
+  text-decoration: none;
+  color: black;
+}
+.formContentWrapper {
+  width: 100%;
+  display: flex;
+}
+.formPicture {
+  width: 45%;
+  height: max-content;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.formImgDiv {
+  padding-top: 70px;
+padding-left: 70px;
+padding-right: 70px;
+padding-bottom: 5px;
+
+}
+.formImg {
+  object-fit: contain;
+  width: 100%;
+ 
+ }
+.imageTexts {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.learn {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000812;
+  font-size: 2.0rem;
+  text-align: center;
+  margin-bottom: 25px;
+ 
+}
+.imgFooter {
+  display: flex;
+  flex-direction: column;
+}
+.logoFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.twitter {
+  padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+width: 25px;
+}
+.insta {
+  padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+width: 25px;
+}
+.facebook {
+  padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+width: 25px;
+}
+.linkedin {
+  padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+width: 25px;
+}
+.tel {
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+}
+.rightText {
+  margin: 0;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.0rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+.spanDiv {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.firstSpan {
+  font-weight: 800;
+  color: black;
+  padding-top: 25px;
+}
+
+.formContent {
+  width: 55%;
+  background-color: white;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.signLink {
+  text-decoration: none;
+  color: rgb(32, 84, 210);;
+}
+.signUpWrapper {
+  padding-left: 1.5rem;
+}
+.pText {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.pNext {
+  font-weight: 100!important;
+  line-height: 0.2rem;
+  color: gray;
+  
+}
+.orignalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.temsOfUse{
+  padding-top: 20px
+}
+.privacy {
+  color: gray;
+  font-weight: 100;
+}
+.lastP {
+  color: rgb(32, 84, 210);;
+  text-decoration: none;
+  font-size: 1.0rem;
+}
+.button {
+  width: 70%;
+  background-color: rgb(106, 111, 245);
+  margin-bottom: 30px;
+  padding: 15px;
+  margin-top: 10px;
+  text-align:center;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+ .input, .inputSpecial {
+  padding: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(250, 235, 215, 0.336)
+ }
+ 
+.nameContainer {
+  display: flex;
+  gap: 20px;
+}
+.NameLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.label {
+  color: gray;
+  font-weight: 100;
+}
+ .NameLabelSpecial {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 75%;
+} 
+@media (max-width:700px) {
+  .formPicture {
+      display: none!important;
+  }
+}
+.button:hover {
+  background-color: blue;
+}
+.nav:hover {
+  background-color: white;
+  font-size: 30px;
 }

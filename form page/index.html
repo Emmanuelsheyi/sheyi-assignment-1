@@ -4,125 +4,219 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>form page</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body class="body">
-    <header>
-      <nav class="nav">click here to go to: <a href="../index.html" class="href">Home</a>
-        <a href="../table page/" class="href"> table page</a>
-        <a href="../media page/" class="href">media page</a></nav>
-      <section>
-        <div class="class"><strong>Already an Altschooler?</strong> <a href="">Sign in</a></div>       
-      </section>
-      
-    </header>
+    <div class="formContainer">
+      <div class="header">
+        <a href="../index.html" class="nav">Home</a>
+        <a href="../form page/" class="nav">Form</a>
+        <a href="../table page/" class="nav">Table</a>
+        <a href="../media page/" class="nav">Media</a>
+        <a href="#bottom" class="nav">Go to bottom</a>
+      </div>
 
-    <main>
-      
-      <div class="divtable">
-      <section>
-        <h3>Signup</h3>
-        <p>Take the next step to apply at Altschool Africa</p>
-        <form>
-          <table>
-            <thead>
-              <tr>
-                <label><td>Surname</td></label>
-                <label><td>Firstname</td></label>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><input type="text" placeholder="your surname" /></td>
-                <td><input type="text" placeholder="your surname" /></td>
-              </tr>
-            </tbody>
-            <thead>
-              <tr>
-                <label><td>Age</td></label>
-                <label><td>Email</td></label>
-              </tr>
+      <div class="formContentWrapper">
+        <div class="formPicture">
+          <div class="formImgDiv">
+            <img
+              src="../asset/WhatsApp Image 2024-08-19 at 19.43.52_be6b1983.jpg"
+              class="formImg"
+              alt="formImage"
+            />
+          </div>
+          <div class="imageTexts">
+            <div>
+              <p class="learn">
+                Learn highly sought <br />
+                after skills without <br />
+                hassle.
+              </p>
+            </div>
+          </div>
+          <div class="imgFooter">
+            <div class="logoFooter">
+              <img src="../asset/twitter.jpg" class="twitter" alt="twitter" />
+              <img src="../asset/instagram.jpg" class="insta" alt="insta" />
+              <img
+                class="facebook"
+                src="../asset/facebook.jpg"
+                alt="facebook"
+              />
+              <img class="linkedin" src="../asset/linkdin.jpg" alt="linkedin" />
+            </div>
+            <p class="tel">Tel: 0800ALTSCHOOL</p>
+            <p class="rightText">
+              ©2024 AltSchool Africa. All rights reserved.
+            </p>
+          </div>
+        </div>
+        <div class="formContent">
+          <div class="spanDiv">
+            <span class="firstSpan"
+              >Already an AltSchooler?
+              <a href="" class="signLink">Sign In!</a></span
+            >
+          </div>
+          <div class="signUpWrapper">
+            <p class="pText">Signup</p>
+            <p class="pNext">
+              Take the next steps to apply at AltSchool Africa
+            </p>
+            <div class="mainForm">
+              <form class="orignalForm">
+                <div class="nameContainer">
+                  <div class="NameLabel">
+                    <label for="text" class="label">First Name</label>
+                    <input
+                      class="input"
+                      type="text"
+                      id="firstname"
+                      placeholder="Enter First Name"
+                    />
+                  </div>
+                  <div class="NameLabel">
+                    <label for="text" class="label">Last Name</label>
+                    <input
+                      class="input"
+                      type="text"
+                      id="lastname"
+                      placeholder="Enter Last Name"
+                    />
+                  </div>
+                </div>
+                <div class="nameContainer">
+                  <div class="NameLabel">
+                    <label for="text" class="label">Gender</label>
+                    <select name="" id="" class="input">
+                      <option value="">select</option>
+                      <option value="">male</option>
+                      <option value="">female</option>
+                    </select>
+                  </div>
+                  <div class="NameLabel">
+                    <label for="text" class="label">Date of Birth</label>
+                    <input
+                      class="input"
+                      type="date"
+                      id="lastname"
+                      placeholder="Enter Last Name"
+                    />
+                  </div>
+                </div>
+                <div class="nameContainer">
+                  <div class="NameLabel">
+                    <label for="text" class="label">Email Address</label>
+                    <input
+                      class="input"
+                      type="email"
+                      id="firstname"
+                      placeholder="Email address"
+                    />
+                  </div>
+                  <div class="NameLabel">
+                    <label for="text" class="label">Phone Number</label>
+                    <input
+                      class="input"
+                      type="tel"
+                      id="lastname"
+                      placeholder="0811234567"
+                    />
+                  </div>
+                </div>
+                <div class="nameContainer">
+                  <div class="NameLabel">
+                    <label for="text" class="label">Country</label>
+                    <select id="country" name="country" class="input">
+                      <option value="">Select your country</option>
+                      <option value="NGN">Nigeria</option>
+                      <option value="US">United States</option>
+                      <option value="CA">Canada</option>
+                      <option value="GB">United Kingdom</option>
+                      <option value="AU">Australia</option>
+                      <option value="IN">India</option>
+                    </select>
+                  </div>
+                  <div class="NameLabel">
+                    <label for="text" class="label"
+                      >State/City of Residence</label
+                    >
+                    <input
+                      class="input"
+                      type="text"
+                      id="lastname"
+                      placeholder="Enter your state of residence"
+                      required
+                    />
+                  </div>
+                </div>
 
-              <tr>
-                <th><input type="age" placeholder="age" /></th>
-                <th><input type="email" placeholder="email" /></th>
-              </tr>
-            </thead>
-
-            <thead>
-              <tr>
-                <label><td>gender</td></label>
-                <label><td>Date of birth</td></label>
-              </tr>
-
-              <tr>
-                <td>
-                  <select>
-                    <option>male</option>
-                    <option>female</option>
+                <div class="NameLabelSpecial">
+                  <label for="text" class="label"
+                    >How did you hear about us?</label
+                  >
+                  <select id="social media" name="social media" class="input">
+                    <option value="">select</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Linkedin">Linkedin</option>
+                    <option value="Youtube">Youtube</option>
+                    <option value="Friend">Friend</option>
+                    <option value="WhatsApp">Whatsaap</option>
                   </select>
-                </td>
-                <td><input type="date" /></td>
-              </tr>
-            </thead>
-            <thead>
-              <tr>
-                <td><label>Country</label></td>
-                <td><label for="text">state/city of residence</label></td>
-              </tr>
-            </thead>
-            <tbody>
-              <td><input type="text" placeholder="country"  /></td>
-              <td><input type="text" placeholder="residence" id="text" required /></td>
-              <td><input type="checkbox" checked></td>
-            </tbody>
-            <thead>
-              <tr>
-                <td><label>how did you hear about us?</label></td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <select>
-                    <option>whatsapp</option>
-                    <option>friends</option>
-                    <option>browse about us</option>
-                  </select>
-                </td>
-              </tr>
-            </tbody>
-            <thead>
-              <tr>
-                <!-- <td><input type="submit" value="submit" /></td> -->
-          <td>
-           
-            <input type="submit" value="submit" class="input">
-          </td>
-              </tr>
-              
-            </thead>
-          </table>
-          
-        </form>
-      </section>
+                </div>
+                <div class="nameContainer">
+                  <div class="NameLabel">
+                    <label for="text" class="label">Password</label>
+                    <input
+                      class="input"
+                      type="password"
+                      id="firstname"
+                      placeholder="Enter password"
+                      required
+                    />
+                  </div>
+                  <div class="NameLabel">
+                    <label for="password" class="label">Confirm Password</label>
+                    <input
+                      class="input"
+                      type="password"
+                      id="lastname"
+                      placeholder="Enter password again"
+                      required
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="temsOfUse">
+              <p class="privacy">
+                By clicking continue, I agree to
+                <a
+                  href="https://altschoolafrica.com/terms-and-conditions"
+                  target="_blank"
+                  class="lastP"
+                  >Terms of Use</a
+                >
+                and acknowledge <br />
+                that I <br />
+                have read the
+                <a
+                  href="https://altschoolafrica.com/privacy-policy"
+                  target="_blank"
+                  class="lastP"
+                  >Privacy Policy.</a
+                >
+              </p>
+            </div>
+            <div class="buttonDiv" id="bottom">
+              <a href="">
+                <button type="submit" class="button">Submit</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-      <figure>
-      <img src="../asset/WhatsApp Image 2024-08-19 at 19.43.52_be6b1983.jpg" alt="logo" width="400">
-     <figcaption> <p class="fig"><b>Learn highly sought <br>
-      after skills without <br>
-             hassle.</b></p> </figcaption>
-           <div class="logocontainer"> <img src="../asset/twitter.jpg" alt="twitter logo" width="25px">
-            <img src="../asset/instagram.jpg" alt="instagram logo" width="15px">
-            <img src="../asset/facebook.jpg" alt="facebook logo" width="23px">
-            <img src="../asset/linkdin.jpg" alt="linkdin logo" width="15px"></div>   
-            <p class="header4">Tel: 0800ALTSCHOOL</p>
-           <h4 class="header5">  ©2024 AltSchool Africa. All rights reserved.</h4>
-            </figure>
-    </div>
-
-    </main>
-    <footer></footer>
   </body>
 </html>
